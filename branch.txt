@@ -1,2 +1,5 @@
 "So I made a develop branch, as well as my private working branch. 
 I'm not sure if we really need a master and a develop for this assignment but its good practice." 
+
+================================================
+Henry - "Ok I'll make my own working branch too."
