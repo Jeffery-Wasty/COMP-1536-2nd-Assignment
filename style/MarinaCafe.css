@@ -1,0 +1,71 @@
+body {
+	font-family: agency-fb, garamond, Arial, Sans-Serif;
+}
+header {
+	height: 100px;
+}
+#icon {
+	float: left;
+}
+#title {
+	width: 80%;
+	display: inline-block;
+	text-align: center;
+}
+#title h1 {
+	font-size: 100px;
+	margin: 0px;
+}
+header img {
+	height: 100px;
+	width: auto;
+}
+#wrapper {
+	width: 90%;
+	overflow: hidden;
+	padding: 10px;
+}
+#sidebar {
+	float: left;
+	width: 225px;
+	height: 100%;
+}
+#pages {
+	list-style-type: none;
+}
+#pages li {
+	padding: 1em 0 1em 0;
+}
+#pages li a {
+	font-size: 2em;
+	text-decoration: none;
+	color: #000;
+	transition: all 0.45s;
+}
+#pages li a:hover {
+	color: #42f4c2;
+	transition: all 0.45s;
+}
+#content {
+	padding-top: 0.5em;
+	float: right;
+	width: 70%;
+	margin: 0 0 0 100px;
+}
+.menu_title {
+	padding-bottom: 1em;
+	font-size: 1.8em;
+	width: 10em;
+	display: inline-table;
+}
+.spacer {
+	padding-bottom: 1em;
+	width: 10em;
+	display: inline-table;
+}
+.description {
+	padding-bottom: 1em;
+	font-size: 1.2em;
+	width: 17em;
+	display: inline-table;
+}
