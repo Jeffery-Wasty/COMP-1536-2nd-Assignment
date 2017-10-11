@@ -1,71 +1,50 @@
 body {
 	font-family: agency-fb, garamond, Arial, Sans-Serif;
 }
-header {
-	height: 100px;
+.navbar {
+	background-color: #fff;
 }
-#icon {
-	float: left;
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #fff;
 }
-#title {
-	width: 80%;
-	display: inline-block;
-	text-align: center;
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #fff;
 }
-#title h1 {
-	font-size: 100px;
-	margin: 0px;
+.navbar-inverse {
+	border-color: #fff;
 }
-header img {
-	height: 100px;
-	width: auto;
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #fff;
 }
-#wrapper {
-	width: 90%;
-	overflow: hidden;
-	padding: 10px;
+#myTab {
+	border-color: #fff;
+	padding-top: 2em;
 }
-#sidebar {
-	float: left;
-	width: 225px;
-	height: 100%;
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #fff;
 }
-#pages {
-	list-style-type: none;
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #000;
 }
-#pages li {
-	padding: 1em 0 1em 0;
-}
-#pages li a {
+
+#myTab li a {
 	font-size: 2em;
-	text-decoration: none;
 	color: #000;
 	transition: all 0.45s;
+	border-color: #fff;
 }
-#pages li a:hover {
+#myTab li a:hover {
+	background-color: #fff;
 	color: #42f4c2;
 	transition: all 0.45s;
+	border-color: #fff;
+	border-bottom-color: #42f4c2;
+
 }
-#content {
-	padding-top: 0.5em;
-	float: right;
-	width: 70%;
-	margin: 0 0 0 100px;
+.jumbotron {
+	background-color: #fff;
+	text-align: center;
 }
-.menu_title {
-	padding-bottom: 1em;
-	font-size: 1.8em;
-	width: 10em;
-	display: inline-table;
-}
-.spacer {
-	padding-bottom: 1em;
-	width: 10em;
-	display: inline-table;
-}
-.description {
-	padding-bottom: 1em;
-	font-size: 1.2em;
-	width: 17em;
-	display: inline-table;
+.jumbotron p {
+	font-style: italic;
 }
