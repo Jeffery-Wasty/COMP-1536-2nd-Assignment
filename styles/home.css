@@ -1,0 +1,102 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  margin: 5px;
+  font-family: agency-fb, garamond, Arial, Sans-Serif;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Circle images
+ */
+
+.placeholders {
+  margin-top: 50px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar {
+	background-color: #fff;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #fff;
+}
+.navbar-inverse {
+	border-color: #fff;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+#myTab {
+	border-color: #fff;
+	padding-top: 2em;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #fff;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+
+#myTab li a {
+	font-size: 2em;
+	color: #000;
+	transition: all 0.45s;
+	border-color: #fff;
+}
+#myTab li a:hover {
+	background-color: #fff;
+	color: #42f4c2;
+	transition: all 0.45s;
+	border-color: #fff;
+	border-bottom-color: #42f4c2;
+
+}
