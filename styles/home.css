@@ -1,0 +1,111 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  margin: auto;
+  font-family: agency-fb, garamond, Arial, Sans-Serif;
+  background: #F5DEB3;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.container {
+	margin:50px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+	text-align: center;
+}
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Circle images
+ */
+
+.placeholders {
+  margin-top: 50px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar {
+	background-color: #F5DEB3;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #F5DEB3;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #F5DEB3;
+}
+.navbar-inverse {
+	border-color: #F5DEB3;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #F5DEB3;
+}
+#myTab {
+	border-color: #F5DEB3;
+	padding-top: 2em;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #F5DEB3;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+
+#myTab li a {
+	font-size: 2em;
+	color: #000;
+	transition: all 0.45s;
+	border-color: #F5DEB3;
+}
+#myTab li a:hover {
+	background-color: #F5DEB3;
+	color: #42f4c2;
+	transition: all 0.45s;
+	border-color: #fff;
+	border-bottom-color: #42f4c2;
+
+}
