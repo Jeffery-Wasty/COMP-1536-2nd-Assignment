@@ -1,9 +1,9 @@
 body {
 	font-family: agency-fb, garamond, Arial, Sans-Serif;
-	background-image: url(../Images/coffeeshop1.jpg);
-	background-size: auto 100%;
-	background-repeat: no-repeat;
 	min-width: 400px;
+	background-image: url(../images/coffeeshop1.jpg);
+	background-size: auto 150%;
+	background-repeat: no-repeat;
 }
 .navbar {
 	background-color: #F5DEB3;
@@ -20,9 +20,22 @@ body {
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #F5DEB3;
 }
+#header_logo {
+	width: auto;
+	height: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+#button {
+	vertical-align: middle;
+}
 #myTab {
 	border-color: #fff;
 	padding-top: 2em;
+}
+#myNavbar {
+	max-height: 100%;
 }
 .navbar-inverse .navbar-toggle:hover {
 	background-color: #fff;
@@ -37,12 +50,14 @@ body {
 #myTab li {
 	text-align: center;
 }
-.col-xs-4 {
-	vertical-align: middle;
-}
 #mobile-title {
+	font-size: 3.1em;
+	min-width: 150px;
 	margin: 0px;
 	text-align: center;
+}
+#mobile_title_column {
+	vertical-align: middle;
 }
 #myTab li a {
 	font-size: 2em;
@@ -56,7 +71,6 @@ body {
 	transition: all 0.45s;
 	border-color: #fff;
 	border-bottom-color: #42f4c2;
-
 }
 #title {
 	text-align: center;
