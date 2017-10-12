@@ -15,7 +15,7 @@ body {
  */
 
 .sub-header {
-  padding-bottom: 10px;
+  padding-bottom: 1em;
   border-bottom: 1px solid #eee;
 }
 
@@ -24,21 +24,26 @@ body {
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 1.25em;
+    margin-bottom: 0;
 	text-align: center;
 }
+
+h1 {
+	display:inline;
+}
+
 /*
  * Main content
  */
 
 .main {
-  padding: 20px;
+  padding: 2em;
 }
 @media (min-width: 768px) {
   .main {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
   }
 }
 .main .page-header {
@@ -51,14 +56,14 @@ body {
  */
 
 .placeholders {
-  margin-top: 50px;
+  margin-top: 3em;
   text-align: center;
 }
 .placeholders h4 {
   margin-bottom: 0;
 }
 .placeholder {
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 .placeholder img {
   display: inline-block;
