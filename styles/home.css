@@ -4,9 +4,9 @@
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
-  margin: 5px;
+  margin: auto;
   font-family: agency-fb, garamond, Arial, Sans-Serif;
+  background: #F5DEB3;
 }
 
 
@@ -19,6 +19,15 @@ body {
   border-bottom: 1px solid #eee;
 }
 
+.container {
+	margin:50px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+	text-align: center;
+}
 /*
  * Main content
  */
@@ -61,26 +70,26 @@ body {
  */
 
 .navbar {
-	background-color: #fff;
+	background-color: #F5DEB3;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-	background-color: #fff;
+	background-color: #F5DEB3;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-	background-color: #fff;
+	background-color: #F5DEB3;
 }
 .navbar-inverse {
-	border-color: #fff;
+	border-color: #F5DEB3;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #fff;
+    border-color: #F5DEB3;
 }
 #myTab {
-	border-color: #fff;
+	border-color: #F5DEB3;
 	padding-top: 2em;
 }
 .navbar-inverse .navbar-toggle:hover {
-	background-color: #fff;
+	background-color: #F5DEB3;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
 	background-color: #000;
@@ -90,10 +99,10 @@ body {
 	font-size: 2em;
 	color: #000;
 	transition: all 0.45s;
-	border-color: #fff;
+	border-color: #F5DEB3;
 }
 #myTab li a:hover {
-	background-color: #fff;
+	background-color: #F5DEB3;
 	color: #42f4c2;
 	transition: all 0.45s;
 	border-color: #fff;
