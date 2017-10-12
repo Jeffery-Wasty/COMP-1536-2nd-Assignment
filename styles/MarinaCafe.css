@@ -1,8 +1,12 @@
 body {
 	font-family: agency-fb, garamond, Arial, Sans-Serif;
+	background-image: url(../Images/coffeeshop1.jpg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	min-width: 400px;
 }
 .navbar {
-	background-color: #fff;
+	background-color: #F5DEB3;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
 	background-color: #fff;
@@ -11,10 +15,10 @@ body {
 	background-color: #fff;
 }
 .navbar-inverse {
-	border-color: #fff;
+	border-color: #F5DEB3;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #fff;
+    border-color: #F5DEB3;
 }
 #myTab {
 	border-color: #fff;
@@ -26,7 +30,20 @@ body {
 .navbar-inverse .navbar-toggle .icon-bar {
 	background-color: #000;
 }
-
+.navbar-header {
+	display: inline-table;
+	width: 100%;
+}
+#myTab li {
+	text-align: center;
+}
+.col-xs-4 {
+	vertical-align: middle;
+}
+#mobile-title {
+	margin: 0px;
+	text-align: center;
+}
 #myTab li a {
 	font-size: 2em;
 	color: #000;
@@ -41,10 +58,38 @@ body {
 	border-bottom-color: #42f4c2;
 
 }
-.jumbotron {
-	background-color: #fff;
+#title {
 	text-align: center;
+	font-size: 7em;
+}
+.header_container {
+	width: 50%;
+	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+.jumbotron {
+	color: #000;
+	text-align: center;
+	background-color: #F5DEB3;
+	padding: 0.8em;
 }
 .jumbotron p {
 	font-style: italic;
+}
+#menu {
+	text-align: center;
+}
+.menu_title {
+	font-size: 3em;
+}
+.description {
+	font-size: 1.5em;
+}
+.menu_column {
+	background-color: #F5DEB3;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
