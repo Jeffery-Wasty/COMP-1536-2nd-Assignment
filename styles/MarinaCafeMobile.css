@@ -21,31 +21,20 @@ body {
 }
 #header_logo {
 	width: auto;
-	height: 80px;
-	margin: 0;
-	vertical-align: middle;
-	transform: translate(20%, 10%);
-}
-#page_logo {
-	width: auto;
-	height: 80px;
+	height: 85px;
 	margin-left: auto;
 	margin-right: auto;
+	vertical-align: middle;
 }
 #button {
-	float: none;
-	transform: translate(100%, 25%);
-	margin-right: auto;
-	margin-left: auto;
-	padding: 20px;
+	vertical-align: middle;
 }
-.collapse .navbar-collapse {
-	text-align: center;
+#myTab {
+	border-color: #fff;
+	padding-top: 2em;
 }
 #myNavbar {
 	max-height: 100%;
-	margin-left: auto;
-	margin-right: auto;
 }
 .navbar-inverse .navbar-toggle:hover {
 	background-color: #F5DEB3;
@@ -53,63 +42,36 @@ body {
 .navbar-inverse .navbar-toggle .icon-bar {
 	background-color: #000;
 }
-.navbar-header .row {
+.navbar-header {
 	display: inline-table;
 	width: 100%;
 }
+#myTab li {
+	text-align: center;
+}
 #mobile-title {
 	font-size: 3.1em;
-	width: 150px;
-	margin: 0 auto 0 auto;
+	min-width: 150px;
+	margin: 0px;
 	text-align: center;
 }
 #mobile_title_column {
 	vertical-align: middle;
 }
-#myTab {
-	border-color: #fff;
-	position:relative;
-  	display: inline-block;  
-  	list-style: none;
- 	width:100%;
-  	text-align: center;
-  	margin: auto;
-  	padding: 0;
-  	overflow: hidden;
-}
-#myTab div {
-	border: 1px solid transparent;
-	margin-bottom: 5px;
-}
-#myTab div:hover {
-	border: 1px solid #000;
-}
-#myTab div li {
-	padding-top: 2%;
-	padding-bottom: 2%;
-	display: inline-block;
-	text-align: center;
-	list-style: none;
-	font-size: 16px;
-}
-#myTab div li a {
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	list-style: none;
+#myTab li a {
 	font-size: 2em;
 	color: #000;
 	transition: all 0.45s;
 	border-color: #fff;
 }
-
-#myTab div li a:hover {
+#myTab li a:hover {
 	background-color: #F5DEB3;
+	color: #d39876;
 	transition: all 0.45s;
 	border-color: #fff;
+	border-bottom-color: #42f4c2;
 }
 #title {
-	margin-top: 0px;
 	text-align: center;
 	font-size: 7em;
 }
@@ -154,7 +116,7 @@ body {
 	border: 2px solid #000;
 	margin-left: auto;
 	margin-right: 0;
-	width: 15em;
+	width: 30%;
 	background-color: #F5DEB3;
 	align-content: right;
 }
