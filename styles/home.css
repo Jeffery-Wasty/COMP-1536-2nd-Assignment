@@ -6,7 +6,9 @@
 body {
   margin: auto;
   font-family: agency-fb, garamond, Arial, Sans-Serif;
-  background: #F5DEB3;
+  background: url(../Images/coffeeshop1.jpg);
+  background-size: auto 200%;
+  background-repeat: no-repeat;
 }
 
 
@@ -19,15 +21,19 @@ body {
   border-bottom: 1px solid #eee;
 }
 
-.container {
-	margin:50px;
-}
 
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 1.25em;
     margin-bottom: 0;
 	text-align: center;
 }
+
+.container {
+	background-color: #F5DEB3;
+	width: 80%;
+	text-align:center;
+}
+
 
 h1 {
 	display:inline;
@@ -48,6 +54,11 @@ h1 {
 }
 .main .page-header {
   margin-top: 0;
+}
+
+.col-md-offset-2 {
+	margin-right:10%;
+    margin-left: 10%;
 }
 
 
