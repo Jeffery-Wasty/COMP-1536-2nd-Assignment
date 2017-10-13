@@ -11,7 +11,6 @@
   background: url(../Images/coffeeshop1.jpg);
   background-size: auto 200%;
   background-repeat: no-repeat;
-  min-width:400px;
 }
 
 .container {
@@ -75,7 +74,27 @@ footer {
 }
 
 p {
-	border: 1pt;
+	font-weight:bold;
+}
+
+.jumbotron {
+	border-radius: 25px;
+	border: 2px solid #000;
+	color: #000;
+	text-align: center;
+	background-color: #F5DEB3;
+	padding: 0.8em;
+}
+.jumbotron p {
+	font-style: italic;
+}
+
+.header_container {
+	width: 50%;
+	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
 }
 
 
@@ -93,8 +112,25 @@ p {
   margin-bottom: 1em;
 }
 .placeholder img {
+  margin: 1em;
   display: inline-block;
   border-radius: 50%;
+}
+
+.img-responsive {
+	width: 18em;
+	height: auto;
+}
+
+#wifi {
+	width: 6em;
+	height: auto;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	display:inline;
+    max-width: 100%;
+    height: auto;
 }
 
 #header_logo {
