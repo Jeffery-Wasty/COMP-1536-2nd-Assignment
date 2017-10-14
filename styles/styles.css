@@ -97,6 +97,27 @@ p {
 	height: auto;
 }
 
+#menu {
+	text-align: center;
+}
+
+.menu_title {
+	font-size: 3em;
+}
+.description {
+	font-size: 1.5em;
+}
+.menu_column {
+	border-radius: 25px;
+	border: 2px solid #000;
+	background-color: #F5DEB3;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+	width: 80%;
+}
+
+
 
 /*
  * Images
@@ -173,6 +194,10 @@ p {
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #F5DEB3;
+}
+
+.collapse .navbar-collapse {
+	text-align: center;
 }
 
 #myNavbar {
