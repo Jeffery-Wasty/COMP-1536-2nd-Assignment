@@ -1,2 +1,10 @@
-# COMP-1536-2nd-Assignment
-For BCIT CST 2017W Term 1
+--Partner removed for privacy--
+Jeffery Wasty, A01027014, 1D, jwasty@my.bcit.ca
+-----------------------------------------------
+Completed
+-Everything
+-----------------------------------------------
+Not-completed
+-Nothing
+-----------------------------------------------
+
