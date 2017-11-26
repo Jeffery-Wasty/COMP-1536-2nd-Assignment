@@ -18,3 +18,4 @@ Major Challenges
 	-Centering! We used comlumns and automatic margins, but still ran into trouble
 	 centering elements on the header.
 	
+http://wasty-jeffery-cafe-website.azurewebsites.net
