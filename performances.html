@@ -8,52 +8,62 @@
     <script src="styles/jquery-2.1.3.min.js" type="text/javascript"></script>
     <script src="styles/bootstrap.min.js" type="text/javascript"></script>
     <link href="styles/styles.css" rel="stylesheet">
+    <link rel="icon" href="images/logo.png">
   </head>
   <body>
     <nav class="navbar navbar-inverse container">
       <div class="container-fluid row">
         <div class="navbar-header row">
-            <div class="col-xs-4">
-              <img src="images/logotest7.png" alt="Marina Cafe" title="Marina Cafe" class="visible-xs hiddem-sm hidden-md hidden-lg" id="header_logo">
-            </div>
-            <div class="col-xs-4" id="mobile_title_column">
-              <h1 id="mobile-title" class="visible-xs hiddem-sm hidden-md hidden-lg">Marina's Café</h1>
-            </div>
-            <div class="col-xs-4" id="button_column">
-              <button type="button" class="navbar-toggle" id="button" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                      
-              </button>
-            </div>
+          <div class="col-xs-4" id="header_logo_column">
+            <img src="images/logo.png" alt="Marina Cafe" title="Marina Cafe" class="visible-xs hidden-sm hidden-md hidden-lg" id="header_logo">
+          </div>
+          <div class="col-xs-4" id="mobile_title_column">
+            <h2 id="mobile-title" class="visible-xs hiddem-sm hidden-md hidden-lg">Marina's Café</h2>
+          </div>
+          <div class="col-xs-4" id="button_column">
+            <button type="button" class="navbar-toggle" id="button" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                      
+            </button>
+          </div>
         </div>
-
-        <p><h1 id="title" class="hidden-xs visible-sm visible-md visible-lg">Marina's Café</h1><img src="images/logotest7.png" alt="Marina Cafe" title="Marina Cafe" class="hidden-xs visible-sm visible-md visible-lg" id="page_logo"></p>
+        <div>
+          <h2 id="title" class="hidden-xs visible-sm visible-md visible-lg">Marina's Café</h2><img src="images/logo.png" alt="Marina Cafe" title="Marina Cafe" class="hidden-xs visible-sm visible-md visible-lg" id="page_logo">
+        </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav" id="myTab">
-            <div class="col-sm-3">
-              <li id="home"><a href="./index.html">Home</a></li>
-            </div>
-            <div class="col-sm-3">
-              <li id="menu"><a href="./menu.html">Menu</a></li>
-            </div>
-            <div class="col-sm-3">
-              <li id="performances"><a href="./performances.html">Performances</a></li>
-            </div>
-            <div class="col-sm-3">
-              <li id="jobs"><a href="./jobs.html">Jobs</a></li>
-            </div>
+            <li class="col-sm-3">
+              <a href="./index.html">
+                <div>Home</div>
+              </a>
+            </li>
+            <li class="col-sm-3">
+              <a href="./menu.html">
+                <div>Menu</div>
+              </a>
+            </li>
+            <li class="col-sm-3">
+              <a href="./performances.html">
+                <div>Performances</div>
+              </a>
+            </li>
+            <li class="col-sm-3">
+              <a href="./jobs.html">
+                <div>Jobs</div>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-	<div class="header_container">
-	<div class="jumbotron">
+    <div class="header_container">
+      <div class="jumbotron">
         <h1>Performances</h1>
-		<p>Special performances are held every Thursday night from 7:30pm to 9:30pm.</p>
+		    <p>Special performances are held every Thursday night from 7:30pm to 9:30pm.</p>
+      </div>
     </div>
-	  </div>
-	<div class="container">
+    <div class="container" id="main_content_form">
 			<div class="col-sm-12 col-md-12 main">
 				<div class="col-xs-6 col-sm-6 placeholder">
 				  <h2>November</h2>
@@ -68,24 +78,22 @@
 				  <h4>Brian Arrowwood will sooth your soul with his violin music!</h4>
 				</div>
 			</div>
-				<h2> March </h2>
-				<img src="./Images/microphone.png" id="not-container" class="img-responsive" alt="Karaoke">
-				<p> Karaoke Night! </p>
+			<h2> March </h2>
+			<img src="./Images/microphone.png" id="not-container" class="img-responsive" alt="Karaoke">
+			<p> Karaoke Night! </p>
 		</div>
-      <div class="address_tab">
-        <h4>667 Lawrence Ave</h4>
-        <h4>Kelowna, BC V1Y 6L8</h4>
-        <h4>1-888-888-8888</h4>
-      </div>
-  <footer>
-      <br/>
-      <h4>Jeffery Wasty</h4>
-      <h4>jwasty@my.bcit.ca</h4>
-      <br/>
-	  <br/>
-	  <h4>Henry Jiang</h4>
-	  <h4>hjiang28@my.bcit.ca</h4>
-	  <br/>
+    <div class="address_tab">
+      <h4>667 Lawrence Ave</h4>
+      <h4>Kelowna, BC V1Y 6L8</h4>
+      <h4>1-888-888-8888</h4>
+    </div>
+    <footer>
+      <br />
+      <h4>Henry Jiang</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4>Jeffery Wasty</h4>
+      <br />
+      <h4><a id="henry_link" href='ma&#105;lt&#111;&#58;&#37;68ji&#97;ng28&#64;%6Dy&#46;%62%63%6&#57;t&#37;2Eca'>hjiang&#50;8&#64;my&#46;&#98;cit&#46;&#99;a</a></h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4><a id="jeff_link" href='ma&#105;lto&#58;jw&#97;s&#116;y&#64;%6D%7&#57;%2Ebcit&#37;2&#69;&#99;a'>jw&#97;s&#116;y&#64;my&#46;bcit&#46;c&#97;</a></h4>
+      <br />
+      <br />
     </footer>
   </body>
 </html>

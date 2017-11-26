@@ -40,7 +40,7 @@
 }
 #header_logo_column {
 	padding-right: 0;
-	padding-left: 15px;
+	padding-left: 10px;
 	width: 32%;
 }
 .address_tab {
@@ -287,7 +287,7 @@ p {
 }
 #mobile_title_column {
 	vertical-align: middle;
-	padding-left: 15px;
+	padding-left: 0;
 	padding-right: 0;
 }
 #henry_link {
