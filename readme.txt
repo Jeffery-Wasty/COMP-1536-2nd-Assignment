@@ -1,8 +1,3 @@
-Henry Jiang
-
-Set 1D
-
-
 Jeffery Wasty
 A01027014
 Set 1D
